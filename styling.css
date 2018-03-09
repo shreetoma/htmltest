@@ -1,0 +1,90 @@
+.modified{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.bg {
+   
+    background-image: url("sahid-afridi.jpg");
+
+  
+min-height: 400px;
+   
+ 
+   background-repeat: no-repeat;
+    background-size:cover;
+    
+  
+}
+.first-link{
+    color: rebeccapurple;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 50px;
+    
+}
+.second-link{
+        padding-left: 50px;
+    font-size: 30px;
+    /* margin-top: 60px; */
+    /* padding-top: 50px; */
+    color: mediumvioletred;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration-line: none;
+}
+.btn-modified{
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 0px;
+}
+.list-modified{
+    
+    margin-top: 20px;
+}
+.list1{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.active{
+    text-decoration: underline;
+    color:red;
+}
+.img-modified{
+    width: 200px;
+    height: 200px;
+   /* margin-left: 80px;
+    margin-top: 20px;*/
+}
+.modified1{
+    display: block;
+margin-left: auto;
+margin-right: auto ;
+    text-align: center;
+}
+.background{
+    background-color: blueviolet;
+}
+@media screen and (max-width:480px) {
+body{
+    background-color:black;
+}
+    .second-link{
+       padding: 0px;
+    font-size: 30px;
+    /* margin-top: 60px; */
+    /* padding-top: 50px; */
+    color: mediumvioletred;
+    font-weight: bold;
+}
+}
+    @keyframes example {
+    from {background-color: yellow;}
+    to {background-color: red;}
+}
+    .btn-modified{
+       
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    }
